@@ -14,6 +14,11 @@ pipeline {
                         echo 'action1'
                     }
                 }
+                stage('actiontest'){
+                    steps{
+                    echo 'etech Devops'
+                    }
+                }
                 stage('action2'){
                     steps{
                         echo 'action2'
