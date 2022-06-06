@@ -8,9 +8,7 @@ pipeline {
             }
         }
         stage('action1 and action2'){
-            steps{
-             echo 'look at this'
-            }
+            echo 'we check'
             parallel{
                 stage('action1'){
                     steps{
