@@ -8,7 +8,6 @@ pipeline {
             }
         }
         stage('action1 and action2'){
-            echo 'we check'
             parallel{
                 stage('action1'){
                     steps{
